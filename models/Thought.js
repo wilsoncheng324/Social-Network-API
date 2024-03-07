@@ -45,7 +45,6 @@ const ThoughtSchema = new Schema(
     createdAt: {
       type: Date,
       default: Date.now,
-      // Use a getter method to format the timestamp on query
       get: (timestamp) => dateFormat(timestamp),
     },
 
@@ -54,7 +53,6 @@ const ThoughtSchema = new Schema(
       required: true,
     },
 
-    // array of nested documents created with the reactionSchema
     reactions: [ReactionSchema],
   },
   {

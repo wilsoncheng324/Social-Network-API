@@ -11,7 +11,7 @@
 
 ## Description
 
-It's an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+This API serves as the backend for a social network web application, enabling users to express their thoughts, interact with the thoughts of their friends, and manage their friend lists.
 
 ## Technology
 
